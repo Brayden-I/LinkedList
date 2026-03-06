@@ -6,9 +6,9 @@ public class LLNode<T>
     public T data { get; set; }
     public LLNode<T>? next { get; set; }
 
-    public LLNode(T d)
+    public LLNode(T data)
     {
-        data = d; // value in the node
+        this.data = data; // value in the node
         next = null; // null by default; no reference
     }
 }
